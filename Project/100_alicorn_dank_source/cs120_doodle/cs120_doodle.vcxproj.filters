@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="enemy.cpp">
+      <Filter>enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="module.cpp">
+      <Filter>module</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_math.cpp">
+      <Filter>helper_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="useful_functions.cpp">
+      <Filter>helper_functions</Filter>
+    </ClCompile>
+    <ClCompile Include="script.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="variables.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="input_manager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="game_object.cpp">
+      <Filter>gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="classes.h" />
+    <ClInclude Include="enemy.h">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="module.h">
+      <Filter>module</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_math.h">
+      <Filter>helper_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="useful_functions.h">
+      <Filter>helper_functions</Filter>
+    </ClInclude>
+    <ClInclude Include="script.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="variables.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="game_object.h">
+      <Filter>gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="enemy">
+      <UniqueIdentifier>{4e4bb937-1184-4fac-9c3e-06b97cd9eee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module">
+      <UniqueIdentifier>{fd87852e-4bd4-45a4-90d0-d4dd3c45efe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player">
+      <UniqueIdentifier>{95981ea6-4120-4e32-8e87-b4e59e738908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sound">
+      <UniqueIdentifier>{75e7f8a5-ca50-4931-bd4c-9ede90e3d4bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helper_functions">
+      <UniqueIdentifier>{00598f0f-54db-4ec2-9265-2579f8576045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script">
+      <UniqueIdentifier>{8ba844ef-4606-4bc7-b4db-bcaf9592835f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{7876a1ff-7971-484f-83d4-51bdb725ed5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameobject">
+      <UniqueIdentifier>{2a05d5d9-c7ad-40ac-baee-c3009b6560ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{7ea88213-245c-4dd6-afa9-5b43e4a343cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
